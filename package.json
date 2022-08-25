@@ -1,19 +1,19 @@
 {
   "name": "oh-my-food",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch ./sass/style.scss:./sass/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "gh repo clone Babass788/OMF"
+    "url": "git+https://github.com/Babas788/OMF.git"
   },
   "author": "Bastien agi",
   "license": "ISC",
-  "dependencies": {
-    "sass": "^1.54.5"
+  "bugs": {
+    "url": "https://github.com/Babas788/OMF/issues"
   },
-  "devDependencies": {},
-  "description": ""
+  "homepage": "https://github.com/Babas788/OMF#readme"
 }
