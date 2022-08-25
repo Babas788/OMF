@@ -1,0 +1,36 @@
+.acceuil {
+    box-shadow: 0px -9px 14px 5px rgba(0,0,0,0.14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .accueil_fonctionnement{
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+    }
+    input {
+        border: none;
+        background-image: linear-gradient(0deg,$primaire,$secondaire);
+        color: white;
+        font-size: 18px;
+        border-radius: 25px;
+        height: 50px;
+        width: 250px;
+    }
+    .btn_choix{
+        margin: 35px;
+        border: 1px solid ($color-grey);
+        border-radius: 10px;
+        background-color: ($color-grey);
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.14);
+        height: 50px;
+        width: 250px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &:hover{
+            background-color: #9256dc65 ;
+        }
+    }
+}
