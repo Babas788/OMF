@@ -1,0 +1,21 @@
+h1 header {
+  background-color: aliceblue;
+}
+
+footer {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  height: 150px;
+}
+footer ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+footer li {
+  list-style: none;
+  color: white;
+}
+footer h4 {
+  font-family: "Shrikhand", cursive;
+}/*# sourceMappingURL=style.css.map */

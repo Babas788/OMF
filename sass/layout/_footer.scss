@@ -1,0 +1,17 @@
+footer{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 150px;
+    ul{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    li{
+        list-style: none;
+        color:  white;
+    }
+    h4{
+        font-family: 'Shrikhand', cursive;
+    }
+}
