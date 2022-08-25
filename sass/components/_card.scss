@@ -1,0 +1,44 @@
+.restaurant {
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+    .restaurant_choix{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    img{
+        height: 150px;
+        width: 100%;
+        border: 0px solid;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    span {
+        position: absolute;
+        text-align: center;
+        left: 70%;
+        top: 5%;
+        width: 25%;
+        height: 20px;
+        background-color: #99E2D0;
+        color: #15352d;
+      }
+  
+    .restaurant_carte{
+        position: relative;
+        height: 250px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 25px;
+        background-color: white;
+        .fadeInDown {
+            -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            }
+    }
+
+}
