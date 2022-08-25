@@ -1,0 +1,19 @@
+{
+  "name": "oh-my-food",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gh repo clone Babass788/OMF"
+  },
+  "author": "Bastien agi",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.54.5"
+  },
+  "devDependencies": {},
+  "description": ""
+}
