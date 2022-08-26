@@ -4,8 +4,10 @@
 
 @import "./layout/navbar";
 
-@import "./layout/generality";
+@import "./base/reset";
 
 @import "./components/card";
 
 @import "./components/menus";
+
+@import "./abstract/variables"

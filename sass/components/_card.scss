@@ -1,6 +1,6 @@
 .restaurant {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    row-gap: 2rem;
     background-color: #F2F2F2;
     .restaurant_choix{
         width: 90%;
