@@ -152,11 +152,11 @@ header .intro {
   align-items: center;
   width: 100%;
 }
-.proposition .plan p {
+.proposition .plan .titre > p {
   text-align: start;
   position: relative;
 }
-.proposition .plan p:before {
+.proposition .plan .titre > p:before {
   content: "";
   position: absolute;
   width: 50%;
@@ -175,32 +175,61 @@ header .intro {
 .proposition .packshot .icone_bis {
   display: none;
 }
-.proposition .detail_carte {
+
+.detail_carte {
+  width: 90%;
+  border: solid red 1px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 100%;
-  height: 300px;
+}
+.detail_carte .detail_complet {
+  border: solid 2px purple;
+  display: flex;
   align-items: center;
 }
-.proposition .detail_plus {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 10px;
-  width: 95%;
-  box-shadow: 7px 9px 5px -6px rgba(150, 150, 150, 0.75);
-}
-.proposition .detail_plus h4 {
-  margin: 8px 0px 8px 2px;
-}
-.proposition .detail_plus .composition {
+.detail_carte .detail_plus {
+  border: solid 2px green;
   display: flex;
   justify-content: space-between;
-  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
 }
-.proposition .chekbox {
-  border: 1px solid red;
+.detail_carte .text {
+  border: solid 1px red;
+  width: 100%;
+}
+.detail_carte .text > h4 {
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.detail_carte .composition {
+  display: flex;
+  justify-content: space-between;
+}
+.detail_carte .composition > p {
+  margin: 1px;
+}
+.detail_carte .detail_chekbox {
+  display: none;
+}
+
+.detail_carte:hover .detail_chekbox {
+  visibility: visible;
+  width: 25%;
+  height: 3.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #99E2D0;
+  border-radius: auto;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .button {
@@ -243,7 +272,7 @@ header .intro {
 @-webkit-keyframes checkbox {
   0% {
     opacity: 0;
-    transform: translateX(250px) rotate(200deg);
+    transform: translateX(250px) rotate(800deg);
   }
   100% {
     opacity: 1;
@@ -253,7 +282,7 @@ header .intro {
 @keyframes checkbox {
   0% {
     opacity: 0;
-    transform: translateX(250px) rotate(200deg);
+    transform: translateX(250px) rotate(800deg);
   }
   100% {
     opacity: 1;
@@ -261,8 +290,8 @@ header .intro {
   }
 }
 .detail_chekbox {
-  -webkit-animation: checkbox 1s ease-in-out 0s 1 normal forwards;
-          animation: checkbox 1s ease-in-out 0s 1 normal forwards;
+  -webkit-animation: checkbox 0.75s ease-out 0s 1 normal forwards;
+          animation: checkbox 0.75s ease-out 0s 1 normal forwards;
 }
 
 .detail_plus {

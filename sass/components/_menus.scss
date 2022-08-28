@@ -4,8 +4,6 @@ header .intro{
 
 }
 
-
-
 .intro{
     display:flex;
 
@@ -31,17 +29,20 @@ header .intro{
         flex-direction: column;
         align-items: center;
         width: 100%;
-        p{
-            text-align: start; 
+        .titre{
+            >p{
+                text-align: start; 
             position: relative;
+            &:before{
+                content: ""; 
+                position: absolute; 
+                width: 50%; 
+                margin-top: 20px;
+                border-bottom: 3px solid #99E2D0;
+            }
+            }    
         }
-        p:before{
-            content: ""; 
-            position: absolute; 
-            width: 50%; 
-            margin-top: 20px;
-            border-bottom: 3px solid #99E2D0;
-        }
+ 
     }
 
     .packshot{
@@ -56,38 +57,60 @@ header .intro{
             display: none;
         }
     }
+}
 
-
-   
-    .detail_carte{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        width: 100%;
-        height: 300px;
-        align-items: center;
+.detail_carte{
+    width: 90%;
+    border: solid red 1px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+.detail_complet{
+    border: solid 2px purple;
+    display: flex;
+    align-items: center;
+}
+.detail_plus{
+    border: solid 2px green;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+}
+.text{
+    border: solid 1px red;
+    width: 100%;
+>h4{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+}
+.composition{
+    display: flex;
+    justify-content: space-between;
+    >p{
+        margin: 1px;
     }
-
-    .detail_plus{
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        border-radius: 10px;
-        width: 95%;
-        box-shadow: 7px 9px 5px -6px rgba(150, 150, 150, 0.75);
-        h4{
-            margin: 8px 0px 8px 2px;
-        }
-       
-        .composition{
-            display: flex;
-            justify-content: space-between;
-            padding: 5px;
-        }
+}
+.detail_chekbox{
+    display: none;
     }
+}
 
-    .chekbox{
-        border: 1px solid red;
-    }
-
+.detail_carte:hover .detail_chekbox{
+    visibility: visible;
+    width: 25%;
+    height: 3.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #99E2D0;
+    border-radius: auto;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
 }
