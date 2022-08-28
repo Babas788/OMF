@@ -178,19 +178,18 @@ header .intro {
 
 .detail_carte {
   width: 90%;
-  border: solid red 1px;
   height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 .detail_carte .detail_complet {
-  border: solid 2px purple;
   display: flex;
   align-items: center;
+  box-shadow: 4px 4px 12px -3px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
 }
 .detail_carte .detail_plus {
-  border: solid 2px green;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
@@ -198,15 +197,14 @@ header .intro {
   background-color: white;
 }
 .detail_carte .text {
-  border: solid 1px red;
   width: 100%;
 }
 .detail_carte .text > h4 {
   display: flex;
   justify-content: flex-start;
   text-align: start;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 .detail_carte .composition {
   display: flex;
@@ -222,7 +220,7 @@ header .intro {
 .detail_complet:hover .detail_chekbox {
   visibility: visible;
   width: 25%;
-  height: 3.1rem;
+  height: 3.3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -254,7 +252,7 @@ header .intro {
 @-webkit-keyframes deroulant {
   0% {
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateY(-40px);
   }
   100% {
     opacity: 1;
@@ -265,7 +263,7 @@ header .intro {
 @keyframes deroulant {
   0% {
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateY(-40px);
   }
   100% {
     opacity: 1;
@@ -313,16 +311,61 @@ header .intro {
   }
 }
 .fa-circle-check {
-  -webkit-animation: fa-circle-check 1.2s ease-out 0s 1 normal forwards;
-          animation: fa-circle-check 1.2s ease-out 0s 1 normal forwards;
+  -webkit-animation: fa-circle-check 0.85s ease-out 0s 1 normal forwards;
+          animation: fa-circle-check 0.85s ease-out 0s 1 normal forwards;
 }
 
 .detail_chekbox {
-  -webkit-animation: checkbox 1.2s ease-out 0s 1 normal forwards;
-          animation: checkbox 1.2s ease-out 0s 1 normal forwards;
+  -webkit-animation: checkbox 0.65s ease-out 0s 1 normal forwards;
+          animation: checkbox 0.65s ease-out 0s 1 normal forwards;
 }
 
-.detail_plus {
+.boite_1 {
+  -webkit-animation: deroulant 1s ease-in-out 0s 1 normal forwards;
+          animation: deroulant 1s ease-in-out 0s 1 normal forwards;
+}
+
+.boite_1 {
+  -webkit-animation: deroulant 1.2s ease-in-out 0s 1 normal forwards;
+          animation: deroulant 1.2s ease-in-out 0s 1 normal forwards;
+}
+
+.boite_2 {
+  -webkit-animation: deroulant 1.4s ease-in-out 0s 1 normal forwards;
+          animation: deroulant 1.4s ease-in-out 0s 1 normal forwards;
+}
+
+.boite_3 {
+  -webkit-animation: deroulant 1.6s ease-in-out 0s 1 normal forwards;
+          animation: deroulant 1.6s ease-in-out 0s 1 normal forwards;
+}
+
+.boite_4 {
+  -webkit-animation: deroulant 1.8s ease-in-out 0s 1 normal forwards;
+          animation: deroulant 1.8s ease-in-out 0s 1 normal forwards;
+}
+
+.boite_5 {
   -webkit-animation: deroulant 2s ease-in-out 0s 1 normal forwards;
           animation: deroulant 2s ease-in-out 0s 1 normal forwards;
+}
+
+.boite_6 {
+  -webkit-animation: deroulant 2.2s ease-in-out 0s 1 normal forwards;
+          animation: deroulant 2.2s ease-in-out 0s 1 normal forwards;
+}
+
+.boite_7 {
+  -webkit-animation: deroulant 2.4s ease-in-out 0s 1 normal forwards;
+          animation: deroulant 2.4s ease-in-out 0s 1 normal forwards;
+}
+
+.boite_8 {
+  -webkit-animation: deroulant 2.6s ease-in-out 0s 1 normal forwards;
+          animation: deroulant 2.6s ease-in-out 0s 1 normal forwards;
+}
+
+.boite_9 {
+  -webkit-animation: deroulant 2.8s ease-in-out 0s 1 normal forwards;
+          animation: deroulant 2.8s ease-in-out 0s 1 normal forwards;
 }/*# sourceMappingURL=style.css.map */
