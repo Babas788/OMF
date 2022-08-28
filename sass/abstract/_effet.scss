@@ -1,0 +1,32 @@
+@keyframes deroulant {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes checkbox {
+	0% {
+		opacity: 0;
+		transform: translateX(250px) rotate(200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0) rotate(0deg);
+	}
+}
+
+.detail_chekbox{
+    animation: checkbox 1s ease-in-out 0s 1 normal forwards;
+}
+
+.detail_plus{
+    animation: deroulant 2s ease-in-out 0s 1 normal forwards;
+}
+
