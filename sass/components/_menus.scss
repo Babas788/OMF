@@ -102,10 +102,10 @@ header .intro{
     }
 }
 
-.detail_carte:hover .detail_chekbox{
+.detail_complet:hover .detail_chekbox{
     visibility: visible;
     width: 25%;
-    height: 3.4rem;
+    height: 3.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,4 +113,7 @@ header .intro{
     border-radius: auto;
     cursor: pointer;
     border-radius: 0px 10px 10px 0px;
+    >.fa-circle-check{
+        color: white;
+    }
 }

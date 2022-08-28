@@ -219,10 +219,10 @@ header .intro {
   display: none;
 }
 
-.detail_carte:hover .detail_chekbox {
+.detail_complet:hover .detail_chekbox {
   visibility: visible;
   width: 25%;
-  height: 3.4rem;
+  height: 3.1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -230,6 +230,9 @@ header .intro {
   border-radius: auto;
   cursor: pointer;
   border-radius: 0px 10px 10px 0px;
+}
+.detail_complet:hover .detail_chekbox > .fa-circle-check {
+  color: white;
 }
 
 .button {
@@ -272,26 +275,51 @@ header .intro {
 @-webkit-keyframes checkbox {
   0% {
     opacity: 0;
-    transform: translateX(250px) rotate(800deg);
+    transform: translateX(250px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0) rotate(0deg);
+    transform: translateX(0);
   }
 }
 @keyframes checkbox {
   0% {
     opacity: 0;
-    transform: translateX(250px) rotate(800deg);
+    transform: translateX(250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes fa-circle-check {
+  0% {
+    opacity: 0;
+    transform: translateX(250px) rotate(900deg);
   }
   100% {
     opacity: 1;
     transform: translateX(0) rotate(0deg);
   }
 }
+@keyframes fa-circle-check {
+  0% {
+    opacity: 0;
+    transform: translateX(250px) rotate(900deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+}
+.fa-circle-check {
+  -webkit-animation: fa-circle-check 1.2s ease-out 0s 1 normal forwards;
+          animation: fa-circle-check 1.2s ease-out 0s 1 normal forwards;
+}
+
 .detail_chekbox {
-  -webkit-animation: checkbox 0.65s ease-out 0s 1 normal forwards;
-          animation: checkbox 0.65s ease-out 0s 1 normal forwards;
+  -webkit-animation: checkbox 1.2s ease-out 0s 1 normal forwards;
+          animation: checkbox 1.2s ease-out 0s 1 normal forwards;
 }
 
 .detail_plus {
