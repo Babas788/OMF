@@ -1,13 +1,12 @@
 footer {
   background-color: rgb(39, 39, 39);
   color: white;
-  height: 150px;
-  padding: 1rem;
 }
 footer ul {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  margin: 0;
 }
 footer li {
   list-style: none;
@@ -18,6 +17,9 @@ footer li a {
 }
 footer h4 {
   font-family: "Shrikhand", cursive;
+}
+footer h3 {
+  margin-top: 0;
 }
 
 .intro {
@@ -177,7 +179,7 @@ body {
 }
 
 .detail_carte {
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -202,11 +204,7 @@ body {
   width: 100%;
 }
 .detail_carte .text > h4 {
-  display: flex;
-  justify-content: flex-start;
-  text-align: start;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 5px;
 }
 .detail_carte .composition {
   display: flex;
@@ -220,24 +218,14 @@ body {
   background: #99e2d0;
   cursor: pointer;
   height: auto;
-  padding: 30px;
-  height: auto;
   border-radius: 0px 10px 10px 0px;
   position: absolute;
-  left: 355px;
+  left: 315px;
 }
 
-.detail_complet:hover .detail_chekbox {
-  transform: translateX(-70px);
-  transition: 2s;
-}
-
-.detail_complet:hover .composition {
-  transform: translateX(-70px);
-  transition: 2s;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 70px;
+.fa-circle-check {
+  margin: 25px 25px 25px 20px;
+  color: white;
 }
 
 .button {
@@ -292,6 +280,21 @@ input:hover {
     transform: translateY(0);
   }
 }
+.detail_complet:hover .detail_chekbox {
+  transform: translateX(-55px);
+  transition: 2s;
+}
+
+.detail_complet:hover span {
+  transform: translateX(-60px);
+  transition: 2s;
+}
+
+.detail_complet:hover .fa-circle-check {
+  transform: rotate(720deg) scale(1.75);
+  transition: 2s;
+}
+
 .boite_1 {
   -webkit-animation: deroulant 1s ease-in-out 0s 1 normal forwards;
           animation: deroulant 1s ease-in-out 0s 1 normal forwards;

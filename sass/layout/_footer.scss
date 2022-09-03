@@ -1,21 +1,23 @@
 footer{
     background-color: rgb(39, 39, 39);
     color: white;
-    height: 150px;
-    padding: 1rem;
     ul{
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+        margin: 0;
     }
     li{
         list-style: none;
         color:  white;
         a{
             color: white;
-        }
+        }  
     }
     h4{
         font-family: 'Shrikhand', cursive;
+    }
+    h3{
+        margin-top: 0;
     }
 }
