@@ -10,17 +10,7 @@
 	}
 }
 
-@keyframes checkbox {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
 
 @keyframes fa-circle-check {
 	0% {
@@ -35,11 +25,7 @@
 }
 
 .fa-circle-check{
-	animation: fa-circle-check 0.85s ease-out 0s 1 normal forwards;
-}
-
-.detail_chekbox{
-    animation: checkbox 0.65s ease-out 0s 1 normal forwards;
+	animation: fa-circle-check 0.65s ease-out 0s 1 normal forwards;
 }
 
 .boite_1{

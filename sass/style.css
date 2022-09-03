@@ -29,8 +29,8 @@ footer h4 {
   width: 100%;
   display: flex;
   text-align: center;
-  border: 1px solid blue;
   padding-right: 15%;
+  box-shadow: 3px 7px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .intro > h1 {
   font-family: "Shrikhand", cursive;
@@ -41,6 +41,7 @@ footer h4 {
   background-color: #F2F2F2;
   width: 100%;
   height: 35px;
+  box-shadow: 3px 7px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .titre {
@@ -55,10 +56,6 @@ footer h4 {
   width: 100%;
 }
 
-.intro {
-  display: flex;
-}
-
 .acceuil {
   display: flex;
   flex-direction: column;
@@ -68,16 +65,14 @@ footer h4 {
 .acceuil .accueil_fonctionnement {
   display: flex;
   flex-direction: column;
-  height: 350px;
 }
 .acceuil .btn_choix {
   margin: 35px;
   border: 1px solid #F2F2F2;
   border-radius: 10px;
   background-color: #F2F2F2;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.14);
-  height: 50px;
   width: 250px;
+  height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -137,10 +132,6 @@ body {
   color: #15352d;
 }
 
-.intro {
-  display: flex;
-}
-
 .proposition {
   display: flex;
   flex-direction: column;
@@ -161,7 +152,6 @@ body {
   margin-top: -25px;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 .proposition .plan .titre > p {
   text-align: start;
@@ -296,26 +286,6 @@ input:hover {
     transform: translateY(0);
   }
 }
-@-webkit-keyframes checkbox {
-  0% {
-    opacity: 0;
-    transform: translateX(250px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-@keyframes checkbox {
-  0% {
-    opacity: 0;
-    transform: translateX(250px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 @-webkit-keyframes fa-circle-check {
   0% {
     opacity: 0;
@@ -337,13 +307,8 @@ input:hover {
   }
 }
 .fa-circle-check {
-  -webkit-animation: fa-circle-check 0.85s ease-out 0s 1 normal forwards;
-          animation: fa-circle-check 0.85s ease-out 0s 1 normal forwards;
-}
-
-.detail_chekbox {
-  -webkit-animation: checkbox 0.65s ease-out 0s 1 normal forwards;
-          animation: checkbox 0.65s ease-out 0s 1 normal forwards;
+  -webkit-animation: fa-circle-check 0.65s ease-out 0s 1 normal forwards;
+          animation: fa-circle-check 0.65s ease-out 0s 1 normal forwards;
 }
 
 .boite_1 {
