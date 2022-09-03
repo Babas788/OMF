@@ -82,6 +82,9 @@ footer h3 {
 .acceuil .btn_choix:hover {
   background-color: rgba(146, 86, 220, 0.3960784314);
 }
+.acceuil .btn_choix .fa-circle-1 {
+  color: rgba(146, 86, 220, 0.3960784314);
+}
 
 * {
   box-sizing: border-box;
@@ -220,11 +223,11 @@ body {
   height: auto;
   border-radius: 0px 10px 10px 0px;
   position: absolute;
-  left: 315px;
+  left: 100%;
+  padding: 25px 20px 25px 20px;
 }
 
 .fa-circle-check {
-  margin: 25px 25px 25px 20px;
   color: white;
 }
 
