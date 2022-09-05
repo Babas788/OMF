@@ -15,12 +15,9 @@ footer li {
 footer li a {
   color: white;
 }
-footer h4 {
-  font-family: "Shrikhand", cursive;
-  margin-top: 0;
-}
 footer h3 {
   margin-top: 0;
+  font-family: "Shrikhand", cursive;
 }
 
 .intro {
