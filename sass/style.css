@@ -127,12 +127,24 @@ body {
   background-color: #99E2D0;
   color: #15352d;
 }
+.restaurant .restaurant_legend {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
 .restaurant .restaurant_text {
   display: flex;
   flex-direction: column;
 }
 .restaurant .restaurant_text > h3 {
-  margin: 0;
+  margin-bottom: 0;
+}
+.restaurant .restaurant_text > p {
+  margin-top: 5px;
+}
+.restaurant .restaurant_coeur {
+  display: flex;
+  align-items: center;
 }
 
 .proposition {

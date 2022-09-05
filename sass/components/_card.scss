@@ -37,12 +37,25 @@
         background-color: #99E2D0;
         color: #15352d;
       }
+    
+      .restaurant_legend{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px 0px 20px;
+      }
     .restaurant_text{
         display: flex;
         flex-direction: column;
         >h3{
-            margin: 0;
+            margin-bottom: 0;
         }
+        >p{
+            margin-top: 5px;
+        }
+    }
+    .restaurant_coeur{
+        display: flex;
+        align-items: center;
     }
 
 }
