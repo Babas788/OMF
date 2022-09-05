@@ -24,9 +24,10 @@
         text-align: center;
         height: 50px;
         width: 250px;
+        input:hover{
+            background-image: linear-gradient(0deg,#9256dc8e,#ff79d988);
+        }
     }
 }
 
-input:hover{
-    background-image: linear-gradient(0deg,#9256dc8e,#ff79d988);
-}
+

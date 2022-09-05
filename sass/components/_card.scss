@@ -2,19 +2,21 @@
 .restaurant {
     display: flex;
     background-color: #F2F2F2;
+    border: 1px solid blue;
     .restaurant_choix{
         width: 100%;
-        margin-bottom: 40px;
+        border: 1px solid green;
+        display: flex;
+        flex-direction: column;
     }
     .restaurant_carte{
         position: relative;
-        width: 80%;
-        height: 250px;
-        margin-top: 20px;
+        text-align: start;
+        margin: 20px;
         border: none;
         border-radius: 25px;
         background-color: white;
-        left: 10%;
+        box-shadow: 4px 5px 9px 3px rgba(111,111,111,0.45);
     }
     
     img{
@@ -35,6 +37,12 @@
         background-color: #99E2D0;
         color: #15352d;
       }
-
+    .restaurant_text{
+        display: flex;
+        flex-direction: column;
+        >h3{
+            margin: 0;
+        }
+    }
 
 }
