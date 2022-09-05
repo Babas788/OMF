@@ -39,9 +39,16 @@ footer h3 {
   justify-content: center;
   align-items: center;
   border: 1px solid blue;
+  position: relative;
 }
 .titre_page > h1 {
   font-family: "Shrikhand", cursive;
+}
+.titre_page > a {
+  text-align: start;
+  position: absolute;
+  left: 2px;
+  font-size: 20px;
 }
 
 .titre > h1 {
