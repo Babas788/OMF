@@ -2,10 +2,8 @@
 .restaurant {
     display: flex;
     background-color: #F2F2F2;
-    border: 1px solid blue;
     .restaurant_choix{
         width: 100%;
-        border: 1px solid green;
         display: flex;
         flex-direction: column;
     }

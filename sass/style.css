@@ -38,7 +38,6 @@ footer h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
   position: relative;
 }
 .titre_page > h1 {
@@ -100,11 +99,9 @@ body {
 .restaurant {
   display: flex;
   background-color: #F2F2F2;
-  border: 1px solid blue;
 }
 .restaurant .restaurant_choix {
   width: 100%;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
 }
