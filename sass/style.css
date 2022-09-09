@@ -90,10 +90,11 @@ footer h3 {
   .intro > input {
     height: 50px;
     border: 1px solid grey;
+    margin-left: 15px;
   }
   .titre_intro {
     box-shadow: none;
-    width: 31%;
+    width: 30%;
   }
 }
 .acceuil {
@@ -392,6 +393,24 @@ body {
     transform: translateY(0);
   }
 }
+@-webkit-keyframes loader {
+  0% {
+    opacity: 0%;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes loader {
+  0% {
+    opacity: 0%;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 .detail_complet:hover .detail_chekbox {
   transform: translateX(-55px);
   transition: 0.5s;
@@ -509,4 +528,76 @@ img {
 .restaurant_coeur {
   position: relative;
   right: 30px;
+}
+
+.spinner {
+  width: 70.4px;
+  height: 70.4px;
+  -webkit-animation: spinner-y0fdc1 1.6s infinite ease;
+          animation: spinner-y0fdc1 1.6s infinite ease;
+  transform-style: preserve-3d;
+  position: fixed;
+  display: flex;
+  right: 45%;
+  top: 45%;
+}
+
+.spinner > div {
+  background-color: rgba(71, 75, 255, 0.2);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border: 3.5px solid #474bff;
+}
+
+.spinner div:nth-of-type(1) {
+  transform: translateZ(-35.2px) rotateY(180deg);
+}
+
+.spinner div:nth-of-type(2) {
+  transform: rotateY(-270deg) translateX(50%);
+  transform-origin: top right;
+}
+
+.spinner div:nth-of-type(3) {
+  transform: rotateY(270deg) translateX(-50%);
+  transform-origin: center left;
+}
+
+.spinner div:nth-of-type(4) {
+  transform: rotateX(90deg) translateY(-50%);
+  transform-origin: top center;
+}
+
+.spinner div:nth-of-type(5) {
+  transform: rotateX(-90deg) translateY(50%);
+  transform-origin: bottom center;
+}
+
+.spinner div:nth-of-type(6) {
+  transform: translateZ(35.2px);
+}
+
+@-webkit-keyframes spinner-y0fdc1 {
+  0% {
+    transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+  }
+  50% {
+    transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+  }
+  100% {
+    transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+  }
+}
+
+@keyframes spinner-y0fdc1 {
+  0% {
+    transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+  }
+  50% {
+    transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+  }
+  100% {
+    transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+  }
 }/*# sourceMappingURL=style.css.map */
