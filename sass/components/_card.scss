@@ -59,14 +59,16 @@
 }
 
 @media screen and (min-width: 768px){
+    
+    .restaurant{
+        width: 100%;
+        padding: 0px 50px 0px 50px;
+    }
+    
     .restaurant_selection{
-        display: flex;
         justify-content: space-around;
-        ._carte{
-            width: 25%;
-        }
         img{
-            height: 250px;
+            height: 150px;
         }
     }
 

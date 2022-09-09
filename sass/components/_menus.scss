@@ -92,3 +92,18 @@
 .fa-circle-check{
     color: white;
 }
+
+@media screen and (min-width: 768px) {
+
+    .detail_carte{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .detail_complet{
+        width: 25%;
+    }
+    .titre{
+        margin-left: 50px;
+    }
+}

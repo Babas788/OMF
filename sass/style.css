@@ -20,6 +20,16 @@ footer h3 {
   font-family: "Shrikhand", cursive;
 }
 
+@media screen and (min-width: 768px) {
+  footer {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  footer > ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
 .intro {
   display: flex;
   flex-direction: column;
@@ -119,11 +129,14 @@ footer h3 {
 }
 
 @media screen and (min-width: 768px) {
-  .btn1 {
-    display: flex;
-  }
   .btn_choix {
     margin: 0px;
+  }
+  .main_accueil {
+    display: flex;
+  }
+  .acceuil {
+    padding-top: 100px;
   }
 }
 * {
@@ -197,15 +210,15 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .restaurant {
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+  }
   .restaurant_selection {
-    display: flex;
     justify-content: space-around;
   }
-  .restaurant_selection ._carte {
-    width: 25%;
-  }
   .restaurant_selection img {
-    height: 250px;
+    height: 150px;
   }
   .restaurant_choix {
     display: flex;
@@ -302,6 +315,18 @@ body {
   color: white;
 }
 
+@media screen and (min-width: 768px) {
+  .detail_carte {
+    display: flex;
+    flex-direction: row;
+  }
+  .detail_complet {
+    width: 25%;
+  }
+  .titre {
+    margin-left: 50px;
+  }
+}
 .button {
   display: flex;
   justify-content: center;
