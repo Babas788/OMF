@@ -65,6 +65,14 @@ footer h3 {
   font-family: "Shrikhand", cursive;
 }
 
+.fleche_retour {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .acceuil {
   display: flex;
   flex-direction: column;
@@ -240,9 +248,8 @@ body {
   justify-content: space-between;
   border-radius: 10px;
   background-color: white;
-  overflow: hidden;
-  position: relative;
   width: 100%;
+  overflow: hidden;
 }
 .detail_carte .text {
   width: 100%;
@@ -263,9 +270,8 @@ body {
   cursor: pointer;
   height: auto;
   border-radius: 0px 10px 10px 0px;
-  position: absolute;
-  left: 100%;
   padding: 25px 20px 25px 20px;
+  margin-right: -56px;
 }
 
 .fa-circle-check {
@@ -334,8 +340,8 @@ body {
 }
 
 .detail_complet:hover .fa-circle-check {
-  transform: rotate(720deg) scale(1.75);
-  transition: 2s;
+  transform: rotate(355deg) scale(1.75);
+  transition: 1s;
 }
 
 .boite_1 {
