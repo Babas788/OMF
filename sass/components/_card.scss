@@ -57,3 +57,22 @@
     }
 
 }
+
+@media screen and (min-width: 768px){
+    .restaurant_selection{
+        display: flex;
+        justify-content: space-around;
+        ._carte{
+            width: 25%;
+        }
+        img{
+            height: 250px;
+        }
+    }
+
+    .restaurant_choix{
+    display: flex;
+    text-align: center;
+    }
+
+}

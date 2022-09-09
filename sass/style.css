@@ -118,6 +118,14 @@ footer h3 {
   padding: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .btn1 {
+    display: flex;
+  }
+  .btn_choix {
+    margin: 0px;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -188,6 +196,22 @@ body {
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .restaurant_selection {
+    display: flex;
+    justify-content: space-around;
+  }
+  .restaurant_selection ._carte {
+    width: 25%;
+  }
+  .restaurant_selection img {
+    height: 250px;
+  }
+  .restaurant_choix {
+    display: flex;
+    text-align: center;
+  }
+}
 .proposition {
   display: flex;
   flex-direction: column;
