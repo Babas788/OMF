@@ -83,6 +83,19 @@ footer h3 {
   justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+  .intro {
+    flex-direction: row;
+  }
+  .intro > input {
+    height: 50px;
+    border: 1px solid grey;
+  }
+  .titre_intro {
+    box-shadow: none;
+    width: 31%;
+  }
+}
 .acceuil {
   display: flex;
   flex-direction: column;
@@ -137,6 +150,7 @@ footer h3 {
   }
   .acceuil {
     padding-top: 100px;
+    width: 31%;
   }
 }
 * {
@@ -212,7 +226,7 @@ body {
 @media screen and (min-width: 768px) {
   .restaurant {
     width: 100%;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 100px 0px 100px;
   }
   .restaurant_selection {
     justify-content: space-around;
