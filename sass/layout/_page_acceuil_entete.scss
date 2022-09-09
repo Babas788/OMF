@@ -8,6 +8,7 @@
         flex-direction: column;
     }
     .btn_choix{
+        position: relative;
         margin: 35px;
         border: 1px solid #F2F2F2;
         border-radius: 10px;
@@ -17,11 +18,27 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding-left: 15px;
         &:hover{
             background-color: #9256dc65 ;
         }
         .fa-circle-1{
             color: #9256dc65;
         }
+        >h4{
+            position: absolute;
+            left: -15px;
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+            background-color:  #9356DC;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .btn1{
+        list-style-type: none;
+        padding: 0;
     }
 }

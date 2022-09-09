@@ -12,12 +12,12 @@
 
 .detail_complet:hover .detail_chekbox{
     transform: translateX(-55px);
-    transition: 2s;
+    transition: 0.5s;
 }
 
 .detail_complet:hover span{
     transform: translateX(-60px);
-    transition: 2s;
+    transition: 0.5s;
 }
 
 .detail_complet:hover .fa-circle-check{
