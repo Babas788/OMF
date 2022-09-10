@@ -530,54 +530,117 @@ img {
   right: 30px;
 }
 
-.spinner {
-  width: 88px;
-  height: 88px;
-  display: grid;
-  border: 7px solid rgba(0, 0, 0, 0);
-  border-radius: 50%;
-  border-right-color: #474bff;
-  -webkit-animation: spinner-a4dj62 2s forwards linear;
-          animation: spinner-a4dj62 2s forwards linear;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
   position: fixed;
-  vertical-align: middle;
-  top: 45%;
-  right: 40%;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  -webkit-animation: fadeout 0.2s 3s forwards;
+          animation: fadeout 0.2s 3s forwards;
 }
 
-.spinner::before,
-.spinner::after {
-  content: "";
-  grid-area: 1/1;
-  margin: 3.5px;
-  border: inherit;
-  border-radius: 50%;
-  -webkit-animation: spinner-a4dj62 3s forwards;
-          animation: spinner-a4dj62 3s forwards;
+.wave {
+  width: 5px;
+  height: 100px;
+  background: linear-gradient(0deg, #9356DC, #FF79DA);
+  margin: 10px;
+  -webkit-animation: wave 2.5s linear forwards;
+          animation: wave 2.5s linear forwards;
+  border-radius: 20px;
 }
 
-.spinner::after {
-  margin: 14px;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
+.wave:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
 }
 
-@-webkit-keyframes spinner-a4dj62 {
+.wave:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.wave:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.wave:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.wave:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.wave:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.wave:nth-child(8) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.wave:nth-child(9) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.wave:nth-child(10) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+@-webkit-keyframes wave {
   0% {
     opacity: 1;
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
   }
   100% {
-    transform: rotate(3turn);
     opacity: 0;
+    transform: scale(0);
   }
 }
 
-@keyframes spinner-a4dj62 {
+@keyframes wave {
   0% {
     opacity: 1;
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
   }
   100% {
-    transform: rotate(3turn);
     opacity: 0;
+    transform: scale(0);
+  }
+}
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+    visibility: hidden;
+  }
+}
+@keyframes fadeout {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+    visibility: hidden;
   }
 }/*# sourceMappingURL=style.css.map */
