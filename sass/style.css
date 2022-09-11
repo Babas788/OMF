@@ -150,7 +150,6 @@ footer h3 {
     display: flex;
   }
   .acceuil {
-    padding-top: 100px;
     width: 31%;
   }
 }
@@ -227,16 +226,19 @@ body {
 @media screen and (min-width: 768px) {
   .restaurant {
     width: 100%;
-    padding: 0px 100px 0px 100px;
   }
   .restaurant_selection {
     justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
   }
   .restaurant_selection img {
     height: 150px;
   }
+  ._carte {
+    width: 40%;
+  }
   .restaurant_choix {
-    display: flex;
     text-align: center;
   }
 }
