@@ -77,10 +77,15 @@
     justify-content: space-between;
     >p{
         margin: 1px;
+       white-space: nowrap;
+        width: 80%; 
         overflow: hidden;
-        white-space: nowrap;
         text-overflow: ellipsis;
-        width: 70%;
+    }
+    >p:hover{
+        width: 60%;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 }
