@@ -307,6 +307,7 @@ body {
 }
 .detail_carte .text {
   width: 100%;
+  white-space: nowrap;
 }
 .detail_carte .text > h4 {
   margin-top: 5px;
@@ -317,6 +318,10 @@ body {
 }
 .detail_carte .composition > p {
   margin: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 70%;
 }
 
 .detail_chekbox {

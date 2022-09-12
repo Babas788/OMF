@@ -67,6 +67,7 @@
 }
 .text{
     width: 100%;
+    white-space: nowrap;
 >h4{
     margin-top: 5px;
 }
@@ -76,6 +77,10 @@
     justify-content: space-between;
     >p{
         margin: 1px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 70%;
     }
 }
 }
