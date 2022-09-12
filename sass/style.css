@@ -307,7 +307,6 @@ body {
 }
 .detail_carte .text {
   width: 100%;
-  white-space: nowrap;
 }
 .detail_carte .text > h4 {
   margin-top: 5px;
