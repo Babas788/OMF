@@ -318,7 +318,6 @@ body {
 }
 .detail_carte .composition > p {
   margin: 1px;
-  white-space: nowrap;
   width: 80%;
   overflow: hidden;
   text-overflow: ellipsis;
