@@ -80,10 +80,12 @@
         width: 80%; 
         overflow: hidden;
         text-overflow: ellipsis;
+        white-space: nowrap;
     }
     >p:hover{
-        width: 60%;
+        padding-right: 50px;
         overflow: hidden;
+        white-space: nowrap;
         text-overflow: ellipsis;
     }
 }

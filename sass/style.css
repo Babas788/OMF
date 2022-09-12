@@ -321,10 +321,12 @@ body {
   width: 80%;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .detail_carte .composition > p:hover {
-  width: 60%;
+  padding-right: 50px;
   overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
 }
 
@@ -435,10 +437,6 @@ body {
 .detail_complet:hover .fa-circle-check {
   transform: rotate(355deg) scale(1.75);
   transition: 1s;
-}
-
-.detail_complet:hover p {
-  transition: width 0.2s ease-in-out;
 }
 
 .boite_1 {
