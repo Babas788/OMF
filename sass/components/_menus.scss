@@ -66,12 +66,18 @@
 }
 
 .composition{
+    width: 80%;
     >h4{
         margin-top: 5px;
         margin-left: 2px;
     }
     >p{
     margin: 5px 0px 2px 2px;
+    }
+    .test{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 }
 .detail_plus{

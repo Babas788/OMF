@@ -305,12 +305,20 @@ body {
   margin: 10px 0px 10px 0px;
 }
 
+.composition {
+  width: 80%;
+}
 .composition > h4 {
   margin-top: 5px;
   margin-left: 2px;
 }
 .composition > p {
   margin: 5px 0px 2px 2px;
+}
+.composition .test {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .detail_plus {
