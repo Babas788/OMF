@@ -20,14 +20,19 @@
            }
 }
 
-.detail_complet:hover .detail_chekbox{
+.detail_plus:hover{
+    .anim{
     transform: translateX(-55px);
-    transition: 0.5s;
+    transition: 1s;
 }
-
-.detail_complet:hover span{
-    transform: translateX(-60px);
-    transition: 0.5s;
+    .composition{
+        width: 65%;
+    }
+    .test{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
 }
 
 .detail_complet:hover .fa-circle-check{

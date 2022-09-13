@@ -290,43 +290,43 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
-.detail_carte .detail_complet {
+
+.fa-circle-check {
+  color: white;
+}
+
+.detail_complet {
   display: flex;
-  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  justify-content: space-between;
+  overflow: hidden;
   box-shadow: 4px 4px 12px -3px rgba(0, 0, 0, 0.75);
-  border-radius: 10px;
   margin: 10px 0px 10px 0px;
 }
-.detail_carte .detail_plus {
-  display: flex;
-  justify-content: space-between;
-  border-radius: 10px;
-  background-color: white;
-  width: 100%;
-  overflow: hidden;
-}
-.detail_carte .text {
-  width: 100%;
-}
-.detail_carte .text > h4 {
+
+.composition > h4 {
   margin-top: 5px;
+  margin-left: 2px;
 }
-.detail_carte .composition {
+.composition > p {
+  margin: 5px 0px 2px 2px;
+}
+
+.detail_plus {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
-.detail_carte .composition > p {
-  margin: 1px;
-  width: 80%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+
+.anim {
+  display: flex;
+  width: 15%;
+  justify-content: space-around;
 }
-.detail_carte .composition > p:hover {
-  padding-right: 50px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+.anim > span {
+  display: flex;
+  align-items: flex-end;
 }
 
 .detail_chekbox {
@@ -335,11 +335,7 @@ body {
   height: auto;
   border-radius: 0px 10px 10px 0px;
   padding: 25px 20px 25px 20px;
-  margin-right: -56px;
-}
-
-.fa-circle-check {
-  color: white;
+  margin-right: -65px;
 }
 
 @media screen and (min-width: 768px) {
@@ -423,14 +419,17 @@ body {
     opacity: 100%;
   }
 }
-.detail_complet:hover .detail_chekbox {
+.detail_plus:hover .anim {
   transform: translateX(-55px);
-  transition: 0.5s;
+  transition: 1s;
 }
-
-.detail_complet:hover span {
-  transform: translateX(-60px);
-  transition: 0.5s;
+.detail_plus:hover .composition {
+  width: 65%;
+}
+.detail_plus:hover .test {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .detail_complet:hover .fa-circle-check {

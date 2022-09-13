@@ -49,47 +49,46 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
     
+.fa-circle-check{
+    color: white;
+}
+
 .detail_complet{
     display: flex;
-    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: space-between;
+    overflow: hidden;
     box-shadow: 4px 4px 12px -3px rgba(0,0,0,0.75);
-    border-radius: 10px;
     margin: 10px 0px 10px 0px;
+}
+
+.composition{
+    >h4{
+        margin-top: 5px;
+        margin-left: 2px;
+    }
+    >p{
+    margin: 5px 0px 2px 2px;
+    }
 }
 .detail_plus{
     display: flex;
     justify-content: space-between;
-    border-radius: 10px;
-    background-color: white;
     width: 100%;
-    overflow: hidden;
-}
-.text{
-    width: 100%;
->h4{
-    margin-top: 5px;
-}
-}
-.composition{
-    display: flex;
-    justify-content: space-between;
-    >p{
-        margin: 1px;
-        width: 80%; 
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    >p:hover{
-        padding-right: 50px;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-    }
-}
 }
 
+.anim{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    >span{
+        display: flex;
+        align-items: flex-end;
+    }
+}
 
 .detail_chekbox{
     background: #99e2d0;
@@ -97,12 +96,10 @@
     height: auto;
     border-radius: 0px 10px 10px 0px;
     padding: 25px 20px 25px 20px;
-    margin-right: -56px;
+    margin-right: -65px;
 }
 
-.fa-circle-check{
-    color: white;
-}
+
 
 @media screen and (min-width: 768px) {
 
