@@ -421,7 +421,7 @@ body {
 }
 .detail_plus:hover .anim {
   transform: translateX(-55px);
-  transition: 1s;
+  transition: 0.5s;
 }
 .detail_plus:hover .composition {
   width: 65%;
@@ -434,7 +434,7 @@ body {
 
 .detail_complet:hover .fa-circle-check {
   transform: rotate(355deg) scale(1.75);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .boite_1 {

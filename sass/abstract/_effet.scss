@@ -23,7 +23,7 @@
 .detail_plus:hover{
     .anim{
     transform: translateX(-55px);
-    transition: 1s;
+    transition: 0.5s;
 }
     .composition{
         width: 65%;
@@ -37,7 +37,7 @@
 
 .detail_complet:hover .fa-circle-check{
     transform: rotate(355deg) scale(1.75);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 
