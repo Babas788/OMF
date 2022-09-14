@@ -1,3 +1,4 @@
+@import "./variables";
 .fa-heart{
     font-size: 25px;
 }
@@ -5,7 +6,7 @@
 .color{
     background-clip: text;
     color: transparent;
-    background-image: linear-gradient(0deg,#9356DC,#FF79DA );
+    background-image: linear-gradient(0deg,$couleur-primaire,$couleur-secondaire);
     opacity: 0;
     position: absolute;
 }
@@ -28,4 +29,9 @@
 .restaurant_coeur{
     position: relative;
     right: 30px;
+}
+
+.essaie:hover::after{
+    display: inline;
+    background-image: linear-gradient(0deg,$couleur-primaire,$couleur-secondaire)
 }
