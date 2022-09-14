@@ -1,3 +1,4 @@
+@import "../abstract/variables";
 .acceuil {
     display: flex;
     flex-direction: column;
@@ -31,7 +32,7 @@
             width: 25px;
             height: 25px;
             border-radius: 25px;
-            background-color:  #9356DC;
+            background-color:  $couleur-primaire;
             display: flex;
             align-items: center;
             justify-content: center;
