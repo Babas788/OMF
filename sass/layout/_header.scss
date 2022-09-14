@@ -54,16 +54,13 @@
 
 @media screen and (min-width: 768px) {
     .intro{
-        flex-direction: row;
         >input{
             height: 50px;
             border: 1px solid grey;
-            margin-left: 15px;
         }
     }
 
     .titre_intro{
         box-shadow: none;
-        width: 30%;
     }
 }
