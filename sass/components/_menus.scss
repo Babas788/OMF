@@ -107,7 +107,6 @@
 }
 
 
-
 @media screen and (min-width: 768px) {
 
     .detail_carte{
@@ -120,6 +119,14 @@
     }
     .titre{
         margin-left: 50px;
+    }
+
+    .quatre{
+     flex-wrap: wrap;
+    }
+
+    .special{
+        margin-right: 1px;
     }
     
 }
