@@ -67,7 +67,7 @@
 }
 
 .composition{
-    width: 80%;
+    margin: 5px;
     >h4{
         margin-top: 5px;
         margin-left: 2px;
@@ -89,11 +89,11 @@
 
 .anim{
     display: flex;
-    width: 15%;
     justify-content: space-around;
     >span{
         display: flex;
         align-items: flex-end;
+        margin: 0px 15px 5px 10px;
     }
 }
 
@@ -103,7 +103,7 @@
     height: auto;
     border-radius: 0px 10px 10px 0px;
     padding: 25px 20px 25px 20px;
-    margin-right: -65px;
+    margin-right: -59px;
 }
 
 

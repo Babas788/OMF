@@ -31,9 +31,16 @@
     right: 30px;
 }
 
-.essaie::after{
-    content: "";
+.essaie{
+    position: relative;
+    color: transparent;
 }
-.essaie:hover{
+
+.essaie:before{
+    content:"\f004";
+    display:block;
+    position: absolute;
+    background-clip:text;
     background-image: linear-gradient(0deg,$couleur-primaire,$couleur-secondaire);
 }
+
