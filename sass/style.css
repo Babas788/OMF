@@ -145,7 +145,7 @@ footer h3 {
   .main_accueil {
     display: flex;
   }
-  .acceuil + {
+  .acceuil {
     width: 31%;
   }
 }
