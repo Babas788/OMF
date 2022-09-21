@@ -20,7 +20,7 @@ footer h3 {
   font-family: "Shrikhand", cursive;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 994px) {
   footer {
     padding-bottom: 20px;
     text-align: center;
@@ -83,7 +83,7 @@ footer h3 {
   justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 994px) {
   .intro > input {
     height: 50px;
     background-color: #99E2D0;
@@ -138,7 +138,7 @@ footer h3 {
   padding: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 994px) {
   .btn_choix {
     margin: 0px;
   }
@@ -219,7 +219,7 @@ body {
   align-items: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 994px) {
   .restaurant {
     width: 100%;
   }
