@@ -254,14 +254,14 @@ body {
   background-color: #F2F2F2;
   border-radius: 25px 25px 0px 0px;
   display: flex;
-  margin-top: -25px;
   flex-direction: column;
   align-items: center;
+  margin: -25px 0px 0px 0px;
 }
 .proposition .plan .titre {
   display: flex;
   justify-content: flex-start;
-  width: 100%;
+  width: 90%;
 }
 .proposition .plan .titre > p {
   position: relative;
@@ -275,16 +275,15 @@ body {
 }
 .proposition .packshot {
   display: flex;
-  width: 90%;
   justify-content: space-between;
   align-items: center;
+  width: 90%;
 }
 
 .detail_carte {
-  width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  width: 100%;
 }
 
 .fa-circle-check {
@@ -298,11 +297,15 @@ body {
   justify-content: space-between;
   overflow: hidden;
   box-shadow: 4px 4px 12px -3px rgba(0, 0, 0, 0.75);
-  margin: 10px 0px 10px 0px;
+  margin: 10px 30px 10px 30px;
 }
 
 .composition {
-  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .composition > h4 {
   margin-top: 5px;
@@ -330,7 +333,7 @@ body {
 .anim > span {
   display: flex;
   align-items: flex-end;
-  margin: 0px 15px 5px 10px;
+  margin: 0px 20px 5px 5px;
 }
 
 .detail_chekbox {
@@ -339,7 +342,7 @@ body {
   height: auto;
   border-radius: 0px 10px 10px 0px;
   padding: 25px 20px 25px 20px;
-  margin-right: -59px;
+  margin-right: -60px;
 }
 
 @media screen and (min-width: 994px) {
