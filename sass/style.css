@@ -349,6 +349,7 @@ body {
   .detail_carte {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
   .detail_complet {
     width: 25%;
@@ -442,7 +443,7 @@ body {
   transition: 0.5s;
 }
 .detail_plus:hover .composition {
-  width: 65%;
+  width: 70%;
 }
 .detail_plus:hover .test {
   overflow: hidden;
