@@ -120,10 +120,12 @@
     .detail_complet{
         width: 25%;
     }
+    
     .titre{
-        margin-left: 50px;
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
     }
-
     .quatre{
      flex-wrap: wrap;
     }
