@@ -1,46 +1,24 @@
 @import "./variables";
 .fa-heart{
-    font-size: 25px;
+    font-size: 30px;
 }
 
-.color{
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(0deg,$couleur-primaire,$couleur-secondaire);
-    opacity: 0;
-    position: absolute;
-}
-
-.black{
-    position: absolute;
-}
-
-.black:hover{
-    opacity: 0;
-}
-.color:hover{
-    opacity: 1;
-}
 .icone{
     position: relative;
-    right: 30px;
-    bottom: 10px;
+    right: 20px;
 }
 .restaurant_coeur{
     position: relative;
-    right: 30px;
+    right: 20px;
 }
 
-.essaie{
-    position: relative;
-    color: transparent;
+.coeur:hover::before{
+    content: "\f004";
+    color: #E470DB;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1);
 }
 
-.essaie:before{
-    content:"\f004";
-    display:block;
-    position: absolute;
-    background-clip:text;
-    background-image: linear-gradient(0deg,$couleur-primaire,$couleur-secondaire);
-}
 
