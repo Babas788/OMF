@@ -443,7 +443,7 @@ body {
   transition: 0.5s;
 }
 .detail_plus:hover .composition {
-  width: 70%;
+  width: 68%;
 }
 .detail_plus:hover .test {
   overflow: hidden;
