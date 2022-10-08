@@ -97,8 +97,9 @@ footer .fa-utensils {
 }
 
 @media screen and (min-width: 994px) {
-  .intro > input {
+  .intro .localisation {
     height: 50px;
+    padding-top: 15px;
     background-color: #99E2D0;
     opacity: 0.75;
   }

@@ -57,8 +57,9 @@
 
 @media screen and (min-width: 994px) {
     .intro{
-        >input{
+        .localisation{
             height: 50px;
+            padding-top: 15px;
             background-color: $couleur-tertiaire;
             opacity: 0.75;
         }
