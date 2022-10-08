@@ -21,7 +21,7 @@ footer li a {
 footer h3 {
   margin-top: 0;
   margin-left: 40px;
-  font-family: "Shrikhand";
+  font-family: "Shrikhand", cursive;
 }
 footer .fa-handshake-angle {
   margin-right: 10px;
@@ -68,7 +68,7 @@ footer .fa-utensils {
   position: relative;
 }
 .titre_page > h1 {
-  font-family: "Shrikhand";
+  font-family: "Shrikhand", cursive;
 }
 .titre_page > a {
   text-align: start;
@@ -85,7 +85,7 @@ footer .fa-utensils {
   margin-bottom: 2px;
 }
 .titre_intro > h1 {
-  font-family: "Shrikhand";
+  font-family: "Shrikhand", cursive;
 }
 
 .fleche_retour {
@@ -257,7 +257,7 @@ body {
   flex-direction: column;
 }
 .proposition h2 {
-  font-family: "Shrikhand";
+  font-family: "Shrikhand", cursive;
 }
 .proposition img {
   height: 250px;
