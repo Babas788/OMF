@@ -3,6 +3,8 @@
 footer{
     background-color: $couleur-footer;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
     ul{
         display: flex;
         align-items: flex-start;
@@ -12,13 +14,21 @@ footer{
     li{
         list-style: none;
         color:  white;
+        margin: 5px 0px 5px 0px;
         a{
             color: white;
         }  
     }
     h3{
         margin-top: 0;
+        margin-left: 40px;
         font-family: 'Shrikhand', cursive;
+    }
+    .fa-handshake-angle{
+        margin-right: 10px;
+    }
+    .fa-utensils{
+        margin-right: 17px;
     }
 }
 

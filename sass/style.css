@@ -1,6 +1,8 @@
 footer {
   background-color: rgb(39, 39, 39);
   color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 footer ul {
   display: flex;
@@ -11,13 +13,21 @@ footer ul {
 footer li {
   list-style: none;
   color: white;
+  margin: 5px 0px 5px 0px;
 }
 footer li a {
   color: white;
 }
 footer h3 {
   margin-top: 0;
+  margin-left: 40px;
   font-family: "Shrikhand", cursive;
+}
+footer .fa-handshake-angle {
+  margin-right: 10px;
+}
+footer .fa-utensils {
+  margin-right: 17px;
 }
 
 @media screen and (min-width: 994px) {
@@ -35,16 +45,19 @@ footer h3 {
   flex-direction: column;
   align-items: center;
 }
-.intro > input {
+.intro .localisation {
+  padding-top: 10px;
   border: 0px;
   text-align: center;
   background-color: #F2F2F2;
   width: 100%;
-  height: 35px;
+  height: 40px;
+}
+.intro .fa-location-dot {
+  margin-right: 10px;
 }
 
 .main_accueil {
-  box-shadow: 0px -4px 0px -1px rgba(111, 111, 111, 0.43);
   margin-top: 2px;
 }
 
@@ -115,6 +128,7 @@ footer h3 {
   justify-content: space-around;
   align-items: center;
   padding-left: 15px;
+  box-shadow: 4px 5px 9px 3px rgba(111, 111, 111, 0.45);
 }
 .acceuil .btn_choix:hover {
   background-color: rgba(146, 86, 220, 0.3960784314);
@@ -261,7 +275,7 @@ body {
 .proposition .plan .titre {
   display: flex;
   justify-content: flex-start;
-  width: 90%;
+  width: 80%;
 }
 .proposition .plan .titre > p {
   position: relative;
@@ -308,11 +322,12 @@ body {
   text-overflow: ellipsis;
 }
 .composition > h4 {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 10px;
+  margin-bottom: 4px;
 }
 .composition > p {
-  margin: 5px 0px 2px 10px;
+  margin: 0px 0px 10px 10px;
 }
 .composition .test {
   overflow: hidden;
@@ -333,7 +348,7 @@ body {
 .anim > span {
   display: flex;
   align-items: flex-end;
-  margin: 0px 20px 5px 5px;
+  margin: 0px 20px 10px 5px;
 }
 
 .detail_chekbox {
@@ -341,7 +356,7 @@ body {
   cursor: pointer;
   height: auto;
   border-radius: 0px 10px 10px 0px;
-  padding: 25px 20px 25px 20px;
+  padding: 20px 20px 20px 20px;
   margin-right: -60px;
 }
 
@@ -380,6 +395,7 @@ body {
   text-align: center;
   height: 50px;
   width: 250px;
+  box-shadow: 4px 5px 9px 3px rgba(111, 111, 111, 0.45);
 }
 .button > input:hover {
   opacity: 0.75;
@@ -394,6 +410,7 @@ body {
   text-align: center;
   height: 50px;
   width: 250px;
+  box-shadow: 4px 5px 9px 3px rgba(111, 111, 111, 0.45);
 }
 ._menu > input:hover {
   opacity: 0.75;
@@ -543,11 +560,21 @@ img {
   right: 20px;
 }
 
-.coeur:hover::before {
-  content: "\f004";
-  color: #E470DB;
-  font-weight: bold;
-  cursor: pointer;
+.fa-regular {
+  position: absolute;
+}
+
+.remplissage {
+  opacity: 0;
+  color: transparent;
+  position: relative;
+}
+
+.remplissage:hover {
+  opacity: 1;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
   transition: all 0.5s ease-in-out;
   transform: scale(1);
 }

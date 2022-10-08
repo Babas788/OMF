@@ -12,13 +12,23 @@
     right: 20px;
 }
 
-.coeur:hover::before{
-    content: "\f004";
-    color: #E470DB;
-    font-weight: bold;
-    cursor: pointer;
+.fa-regular{
+    position: absolute;
+}
+.remplissage{
+    opacity: 0;
+    color: transparent;
+    position: relative;
+}
+
+.remplissage:hover{
+    opacity: 1;
+    background-clip: text;
+    background-image: linear-gradient(0deg,$couleur-primaire,$couleur-secondaire);
     transition: all 0.5s ease-in-out;
     transform: scale(1);
 }
+
+
 
 
