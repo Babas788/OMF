@@ -32,9 +32,13 @@
         left: 70%;
         top: 5%;
         width: 25%;
-        height: 20px;
+        padding-top: 5px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid $couleur-tertiaire;
         background-color: $couleur-tertiaire;
-        color: #15352d;
+        color: #278870;
+        font-weight: bold;
       }
     
       .restaurant_legend{
