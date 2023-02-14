@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
 footer {
   background-color: rgb(39, 39, 39);
   color: white;
@@ -422,17 +423,6 @@ body {
   opacity: 0.75;
 }
 
-@-webkit-keyframes deroulant {
-  0% {
-    opacity: 0;
-    transform: translateY(-40px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @keyframes deroulant {
   0% {
     opacity: 0;
@@ -441,15 +431,6 @@ body {
   100% {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-@-webkit-keyframes loader {
-  0% {
-    opacity: 0%;
-    visibility: hidden;
-  }
-  100% {
-    opacity: 100%;
   }
 }
 @keyframes loader {
@@ -480,58 +461,47 @@ body {
 }
 
 .boite_1 {
-  -webkit-animation: deroulant 1s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 1s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 1s ease-in-out 0s 1 normal forwards;
 }
 
 .boite_1 {
-  -webkit-animation: deroulant 1.2s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 1.2s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 1.2s ease-in-out 0s 1 normal forwards;
 }
 
 .boite_2 {
-  -webkit-animation: deroulant 1.4s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 1.4s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 1.4s ease-in-out 0s 1 normal forwards;
 }
 
 .boite_3 {
-  -webkit-animation: deroulant 1.6s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 1.6s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 1.6s ease-in-out 0s 1 normal forwards;
 }
 
 .boite_4 {
-  -webkit-animation: deroulant 1.8s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 1.8s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 1.8s ease-in-out 0s 1 normal forwards;
 }
 
 .boite_5 {
-  -webkit-animation: deroulant 2s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 2s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 2s ease-in-out 0s 1 normal forwards;
 }
 
 .boite_6 {
-  -webkit-animation: deroulant 2.2s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 2.2s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 2.2s ease-in-out 0s 1 normal forwards;
 }
 
 .boite_7 {
-  -webkit-animation: deroulant 2.4s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 2.4s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 2.4s ease-in-out 0s 1 normal forwards;
 }
 
 .boite_8 {
-  -webkit-animation: deroulant 2.6s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 2.6s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 2.6s ease-in-out 0s 1 normal forwards;
 }
 
 .boite_9 {
-  -webkit-animation: deroulant 2.8s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 2.8s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 2.8s ease-in-out 0s 1 normal forwards;
 }
 
 .boite_10 {
-  -webkit-animation: deroulant 1.7s ease-in-out 0s 1 normal forwards;
-          animation: deroulant 1.7s ease-in-out 0s 1 normal forwards;
+  animation: deroulant 1.7s ease-in-out 0s 1 normal forwards;
 }
 
 * {
@@ -544,7 +514,6 @@ a {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
   margin: 0px;
 }
 
@@ -595,8 +564,7 @@ img {
   width: 100%;
   top: 0;
   z-index: 100;
-  -webkit-animation: fadeout 0.2s 3s forwards;
-          animation: fadeout 0.2s 3s forwards;
+  animation: fadeout 0.2s 3s forwards;
 }
 
 .wave {
@@ -604,68 +572,44 @@ img {
   height: 100px;
   background: linear-gradient(0deg, #9356DC, #FF79DA);
   margin: 10px;
-  -webkit-animation: wave 2.5s linear forwards;
-          animation: wave 2.5s linear forwards;
+  animation: wave 2.5s linear forwards;
   border-radius: 20px;
 }
 
 .wave:nth-child(2) {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s;
+  animation-delay: 0.1s;
 }
 
 .wave:nth-child(3) {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .wave:nth-child(4) {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .wave:nth-child(5) {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .wave:nth-child(6) {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .wave:nth-child(7) {
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .wave:nth-child(8) {
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
+  animation-delay: 0.7s;
 }
 
 .wave:nth-child(9) {
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
 
 .wave:nth-child(10) {
-  -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
-}
-
-@-webkit-keyframes wave {
-  0% {
-    opacity: 1;
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
+  animation-delay: 0.9s;
 }
 
 @keyframes wave {
@@ -679,15 +623,6 @@ img {
   100% {
     opacity: 0;
     transform: scale(0);
-  }
-}
-@-webkit-keyframes fadeout {
-  0% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0%;
-    visibility: hidden;
   }
 }
 @keyframes fadeout {
